@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+cache: yarn
+before_install:
+  - yarn global add coveralls
+jobs:
+  include:
+    - stage: coverage
+      script:
+        - yarn test --coverage && cat ./coverage/lcov.info | coveralls

@@ -1,0 +1,35 @@
+{
+  "name": "map-keys-deep",
+  "description": "🔑 Maps object keys recursively",
+  "author": "Glenn Reyes <glenn@glennreyes.com>",
+  "version": "0.0.1",
+  "repository": "https://github.com/glennreyes/map-keys-deep.git",
+  "bugs": {
+    "url": "https://github.com/glennreyes/map-keys-deep/issues"
+  },
+  "keywords": [
+    "lodash",
+    "loop",
+    "utilities"
+  ],
+  "main": "index.js",
+  "files": [
+    "fp.js",
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "lodash": "4.x.x"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^23.3.0",
+    "lint-staged": "^7.2.0",
+    "lodash": "^4.17.10",
+    "prettier": "^1.13.7"
+  }
+}
