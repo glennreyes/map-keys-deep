@@ -2,7 +2,7 @@
   "name": "map-keys-deep",
   "description": "🔑 Maps object keys recursively",
   "author": "Glenn Reyes <glenn@glennreyes.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/glennreyes/map-keys-deep.git",
   "bugs": {
     "url": "https://github.com/glennreyes/map-keys-deep/issues"
